@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/render-react/static/css/main.b8cd46fc.css",
-    "main.js": "/render-react/static/js/main.df4c6272.js",
+    "main.js": "/render-react/static/js/main.bb8568f4.js",
     "static/js/787.be87a272.chunk.js": "/render-react/static/js/787.be87a272.chunk.js",
     "static/media/Springfield_Nuclear_Power_Plant_29.webp": "/render-react/static/media/Springfield_Nuclear_Power_Plant_29.769613e3921bd06fce68.webp",
     "index.html": "/render-react/index.html",
     "main.b8cd46fc.css.map": "/render-react/static/css/main.b8cd46fc.css.map",
-    "main.df4c6272.js.map": "/render-react/static/js/main.df4c6272.js.map",
+    "main.bb8568f4.js.map": "/render-react/static/js/main.bb8568f4.js.map",
     "787.be87a272.chunk.js.map": "/render-react/static/js/787.be87a272.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8cd46fc.css",
-    "static/js/main.df4c6272.js"
+    "static/js/main.bb8568f4.js"
   ]
 }
