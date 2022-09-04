@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'
+import {Collabs} from './data/CollabDB'
+import Header from './components/Header'
+import Forms from './components/Forms'
 
 function App() {
+  const [inputSearch, setInputSearch] = React.useState("");
+  const [nameCollab, setNameCollab] = React.useState("")
+  const [emailCollab, setEmailCollab] = React.useState("")
+  const [collabList, setCollabList] = React.useState(Collabs)
+  const [error, setError] = React.useState(null)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header
+    inputSearch={inputSearch}
+    setInputSearch={setInputSearch}
+    collabList={collabList}
+    setCollabList={setCollabList}
+    />
+    <Forms
+    nameCollab={nameCollab}
+    emailCollab={emailCollab}
+    setNameCollab={setNameCollab}
+    setEmailCollab={setEmailCollab}
+    collabList={collabList}
+    setCollabList={setCollabList}
+    error={error}
+    setError={setError}
+    />
+    </>
   );
 }
 
