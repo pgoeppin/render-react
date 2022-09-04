@@ -50,7 +50,7 @@ return (
             {props.error ? <p className='form-text text-danger'>{props.error}</p> : null}
             <button className='btn btn-success mb-3' type='submit'>Agregar colaborador</button>
         </form>
-        <a className='btn btn-primary mb-3' href='/' role='button'>Volver a inicio</a>
+        <a className='btn btn-primary mb-3' href='/render-react' role='button'>Volver a inicio</a>
         <Table striped bordered hover responsive variant='dark' className='text-center'>
             <thead>
                 <tr>

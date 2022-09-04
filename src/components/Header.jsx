@@ -21,7 +21,7 @@ function Header(props) {
   return (
     <Navbar bg='dark' variant='dark' expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/">Planta nuclear de Springfield</Navbar.Brand>
+        <Navbar.Brand href="/render-react">Planta nuclear de Springfield</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
